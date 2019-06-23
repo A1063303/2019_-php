@@ -1,0 +1,90 @@
+/*
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------*/
+body{
+    background:url(images/NUK.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.wrap{
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    font:14px Arial,Helvetica,Verdana;
+    color:#5a5a5a;
+    background:#FFF;
+    border: 1px black;
+}
+.content_title p{
+    font-size: 25px;
+    text-align: center;
+
+}
+table thead, table tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(211, 202, 221);
+    }
+    table {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 202, 221);
+    }
+    
+    table td, table th {
+    padding: 5px 10px;
+    font-size: 15px;
+    color: rgb(95, 74, 121);
+    }
+    
+    table tr:nth-child(even) {
+    background: rgb(223, 216, 232)
+    }
+    table tr:nth-child(odd) {
+    background: #FFF
+    }
